@@ -1,0 +1,22 @@
+html {
+    margin-left: 24px;
+    margin-right: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.Colmar_title {
+    color: darkslategray;
+    font-size: 32px;
+    font-weight: bold;
+    display: inline-block
+}
+.Academy_title {
+    color: gray;
+    font-size: 32px;
+    font-weight: normal;
+    display: inline-block;
+}
