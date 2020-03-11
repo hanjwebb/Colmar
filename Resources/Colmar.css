@@ -7,6 +7,11 @@ header {
     margin-top: 16px;
     margin-bottom: 16px;
 }
+.ic_logo {
+    height: 32px;
+    width: auto;
+    display: inline-block;
+}
 
 .Colmar_title {
     color: darkslategray;
@@ -19,4 +24,18 @@ header {
     font-size: 32px;
     font-weight: normal;
     display: inline-block;
+}
+a {
+    text-decoration: none;
+    color: darkslategrey;
+}
+nav {
+    display: block;
+    float: right;
+}
+
+nav li {
+    display: inline;
+    font-size: 32px;
+    padding: 16px;
 }
