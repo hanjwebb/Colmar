@@ -1,11 +1,13 @@
-html {
-    margin-left: 24px;
-    margin-right: 24px;
+html, body {
+    margin: 0;
+    padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header {
     margin-top: 16px;
     margin-bottom: 16px;
+    margin-left: 24px;
+    margin-right: 24px;
 }
 .ic_logo {
     height: 32px;
@@ -14,7 +16,7 @@ header {
 }
 
 .Colmar_title {
-    color: darkslategray;
+    color:  rgb(65, 66, 68);
     font-size: 32px;
     font-weight: bold;
     display: inline-block
@@ -27,7 +29,7 @@ header {
 }
 a {
     text-decoration: none;
-    color: darkslategrey;
+    color:  rgb(65, 66, 68);
 }
 nav {
     display: block;
@@ -38,4 +40,43 @@ nav li {
     display: inline;
     font-size: 32px;
     padding: 16px;
+}
+
+.container1{
+    display: flex;
+    background-color: lightgray;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-right: 24px;
+    padding-left: 24px;
+    align-items: center;
+}
+.bannerpic{
+    width: 60%;
+    height: 60%;
+}
+
+.Maintext1{
+    margin: 24px;
+}
+h2{
+    color:  rgb(65, 66, 68);
+    font-size: 42px;
+    text-align: center;
+}
+h3{
+    color:  rgb(65, 66, 68);
+    font-size: 36px;
+    text-align: center;
+}
+.Start_Here_Button{
+    background-color: rgb(65, 66, 68);
+    color: white;
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 32px;
+    border: 0;
+    box-shadow: none;
+
 }
