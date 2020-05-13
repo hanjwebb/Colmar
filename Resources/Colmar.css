@@ -73,11 +73,13 @@ h4{
     color: rgb(65,66,68);
     font-size: 2rem;
     font-weight: normal;
+    margin-bottom: 0px;
 }
 
 p{
     color: rgb(65,66,68);
     font-size: 1.5rem;
+    margin-bottom: 0px;
 }
 .Start_Here_Button{
     background-color: rgb(65, 66, 68);
@@ -106,7 +108,6 @@ p{
 }
 
 .rh_column {
-    background-color: blue;
     width: 40%;
     padding-top: 16px;
 }
@@ -119,6 +120,15 @@ p{
     border-left-style: solid;
     border-left-color: lightgrey;
 }
+.rh_box1{
+    border-bottom-style: solid;
+    border-bottom-color: lightgrey;
+}
+
+.rh_box3{
+    background-color: gray;
+}
+
 .rh_text{
     display: flex;
     flex-direction: column;
@@ -128,6 +138,72 @@ p{
 .rh_image{
     width: 35%;
     height: 35%;
+}
+.rh_link{
+    color: blue;
+    font-size: 1.5rem;
+    margin-bottom: 0px;
+    margin-top: 8px;
+}
+.Start_learning{
+    background-color: lightgrey;
+    text-align: center;
+    padding: 32px 72px;
+    
+}
+.Course_options{
+    display: flex;
+}
+.course_info{
+    background-color: white;
+    text-align: left;
+    margin: 16px;
+    flex-basis: 33%;
+    min-width: 0;
+}
+
+.Course_option_photos{      
+    width: 100%;
+}
+
+.course_text{
+   padding-left: 16px;
+    padding-bottom: 24px;   
+}
+.Thesis_exhibit{
+    text-align: center;
+    padding: 32px 72px;
+}
+
+.Thesis_exhibit .Maintext2{
+    text-align: left;
+}
+
+.Thesis_exhibit .rh_boxes{
+    border: none;
+}
+
+.Video{
+    width: 100%;
+}
+.rh_box4{
+    background-color: gray;
+}
+footer{
+    font-size: 1rem;
+    display: flex;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-top: solid lightgrey
+    
+}
+footer a{
+    margin-right: 1rem;
+}
+footer span {
+    flex-grow: 1;
 }
 
  
