@@ -5,16 +5,26 @@
         <title>Colmar Academy</title>
     </head>
     <header>
-        <img class="ic_logo" src="Resources/images/ic-logo.svg">
-        <h1 class="Colmar_title">COLMAR</h1><h1 class="Academy_title">ACADEMY</h1>
-        <nav>
-            <ul>
-                <li><a href="#">On campus</a></li>
-                <li><a href="#">Online</a></li>
-                <li><a href="#">For companies</a></li>
-                <li><a href="#">Sign in</a></li>
-            </ul>
-        </nav>
+        <div class ="desktop">
+            <img class="ic_logo" src="Resources/images/ic-logo.svg">
+             <h1 class="Colmar_title">COLMAR</h1><h1 class="Academy_title">ACADEMY</h1>
+             <nav>
+                   <ul>
+                      <li><a href="#">On campus</a></li>
+                       <li><a href="#">Online</a></li>
+                      <li><a href="#">For companies</a></li>
+                      <li><a href="#">Sign in</a></li>
+                   </ul>
+              </nav>
+        </div>
+        <div class="mobile">
+			<ul>
+				<li><img src="Resources/images/ic-logo.svg"></li>
+				<li><img src="Resources/images/ic-on-campus.svg"></li>
+				<li><img src="Resources/images/ic-online.svg"></li>
+				<li><img src="Resources/images/ic-login.svg"></li>
+			</ul>
+		</div>
     </header>
     <body>
         <div class="container1">
@@ -26,7 +36,7 @@
             </div>
         </div>
         <div class="container2">
-            <div class="Maintext2">
+            <div class="Maintext2" id="Maintext2">
                 <img class="information_main_img" src="Resources/images/information-main.jpg">
                  <h2>It doesn't hurt to keep practising</h2>
                  <p>"Curabitur vitae liberp in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellys sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
@@ -115,17 +125,17 @@
                 </div>
         </div>
         <div class="Thesis_exhibit">
-            <h2>Thesis exhibit</h2>
+            <h2>Thesis exhibits</h2>
             <div class="container2">
-                <div class="Maintext2">
+                <div class="Maintext2" id="Thesis_Maintext2">
                     <video class="Video" controls>
                         <source src="Resources/videos/thesis.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
-                    <h4>Reimagine urban</h4>
+                    <h4 class="Reimagine_urban">Reimagine urban</h4>
                     <p>"Curbitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
                 </div>
-                <div class="rh_column">
+                <div class="rh_column" id="Thesis_rh_column">
                     <div class="rh_boxes rh_box4">
                         <img class="rh_image" src="Resources/images/thesis-fisma.jpg">
                         <div class ="rh_text">

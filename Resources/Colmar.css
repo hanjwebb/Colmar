@@ -10,6 +10,27 @@ header {
     margin-left: 24px;
     margin-right: 24px;
 }
+h2{
+    color:  rgb(65, 66, 68);
+    font-size: 4rem;
+}
+h3{
+    color:  rgb(65, 66, 68);
+    font-size: 3rem;
+}
+
+h4{
+    color: rgb(65,66,68);
+    font-size: 2rem;
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+
+p{
+    color: rgb(65,66,68);
+    font-size: 1.5rem;
+    margin-bottom: 0px;
+}
 .ic_logo {
     height: 32px;
     width: auto;
@@ -42,6 +63,25 @@ nav li {
     font-size: 32px;
     padding: 16px;
 }
+.mobile{
+    display: none;
+}
+
+@media only screen and (max-width: 500px) {
+    .mobile{
+        display: block;
+        width: 100%;
+    }
+    .desktop{
+        display: none;
+    }
+    header .mobile ul{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        list-style-type: none;
+    }
+}
 
 .container1{
     display: flex;
@@ -60,27 +100,26 @@ nav li {
 .Maintext1{
     margin: 24px;
 }
-h2{
-    color:  rgb(65, 66, 68);
-    font-size: 4rem;
-}
-h3{
-    color:  rgb(65, 66, 68);
-    font-size: 3rem;
+
+@media only screen and (max-width: 500px){
+    .container1{
+    display: flex;
+    flex-direction: column;
+    padding:0;
+    }
+    .bannerpic{
+        width: 100%;
+    }
+    .Maintext1 h2 {
+        font-size: 2.5rem;
+        padding-top: 0;
+        margin: 0;
+    }
+    .Maintext1 h3 {
+        font-size: 1.5rem;
+    }
 }
 
-h4{
-    color: rgb(65,66,68);
-    font-size: 2rem;
-    font-weight: normal;
-    margin-bottom: 0px;
-}
-
-p{
-    color: rgb(65,66,68);
-    font-size: 1.5rem;
-    margin-bottom: 0px;
-}
 .Start_Here_Button{
     background-color: rgb(65, 66, 68);
     color: white;
@@ -114,9 +153,7 @@ p{
 
 .rh_boxes{
     display: flex;
-    padding-top: 16px;
-    padding-left: 16px;
-    padding-bottom: 16px;
+    padding:16px;
     border-left-style: solid;
     border-left-color: lightgrey;
 }
@@ -145,6 +182,30 @@ p{
     margin-bottom: 0px;
     margin-top: 8px;
 }
+
+@media only screen and (max-width: 500px){
+    .container2{
+        flex-direction: column;
+    }
+
+    #Maintext2 {
+        display: none;
+    }
+    .rh_column{
+        width: 100%
+    }
+    .rh_boxes {
+        flex-direction: column;
+        border: none;
+    }
+    .rh_image {
+        width: 100%;
+    }
+    .rh_box3 {
+        background-color: white;
+    }
+}
+
 .Start_learning{
     background-color: lightgrey;
     text-align: center;
@@ -170,6 +231,30 @@ p{
    padding-left: 16px;
     padding-bottom: 24px;   
 }
+
+@media only screen and (max-width: 500px){
+    .Start_learning {
+        padding: 16px;
+    }
+    .Start_learning h2 {
+        font-size: 2.5rem;
+    }
+    .Course_options{
+        flex-direction: column;
+    }
+    .Course_option_photos {
+        display: none;
+    }
+    .course_info{
+        background-color: grey;
+        font-size: 1rem;
+        margin: 8px;
+    }
+    p {
+        display: none;
+    }
+}
+
 .Thesis_exhibit{
     text-align: center;
     padding: 32px 72px;
@@ -189,6 +274,33 @@ p{
 .rh_box4{
     background-color: gray;
 }
+
+@media only screen and (max-width: 500px) {
+    .Thesis_exhibit{
+        padding-top: 32px;
+        padding-bottom: 16px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    .Thesis_exhibit h2 {
+        font-size: 2.5rem;
+    }
+    #Thesis_rh_column {
+        display: none;
+    }
+    #Thesis_Maintext2 {
+        width: 100%;
+        padding: 0;
+    }
+    .Video{
+        padding-bottom: 24px;
+    }
+    .Reimagine_urban {
+        display: none;
+    }
+}
+
 footer{
     font-size: 1rem;
     display: flex;
@@ -206,6 +318,11 @@ footer span {
     flex-grow: 1;
 }
 
- 
-
-
+@media only screen and (max-width: 500px){
+    footer {
+        border-top: none;
+    }
+    footer a {
+        display: none;
+    }
+}
